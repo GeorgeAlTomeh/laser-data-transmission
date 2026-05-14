@@ -10,24 +10,24 @@ The ESP32 makes tones on pin 25. That signal goes into a transistor that turns t
 
 ### Parts list
 
-· ESP32 board (any kind)
-· Laser diode (red, 5mW, cheap from Amazon)
-· NPN transistor (any)
-· Resistors: 1k ohm and 100 ohm
-· Small solar panel (I got a 5V one from an old light)
-· Powered speaker (any with aux input works)
-· lithium battery or phone charger for the laser (optional you can connect to the vin but be careful it can harm components)
-· Wires and breadboard
+- ESP32 board (any kind)
+- Laser diode (red, 5mW, cheap from Amazon)
+- NPN transistor (any)
+- Resistors: 1k ohm and 100 ohm
+- Small solar panel (I got a 5V one from an old light)
+- Powered speaker (any with aux input works)
+- lithium battery or phone charger for the laser (optional you can connect to the vin but be careful it can harm components)
+- Wires and breadboard
 
 ### Circuit
 
 Transmitter side:
 
-· ESP32 pin 25 -> 1k resistor -> transistor base
-· Transistor emitter -> ground (connect to ESP32 ground)
-· Transistor collector -> laser negative (short leg)
-· Laser positive (long leg) -> 100 ohm resistor -> +5V from the power source 
-· Also connect the power source's ground to ESP32 ground
+- ESP32 pin 25 -> 1k resistor -> transistor base
+- Transistor emitter -> ground (connect to ESP32 ground)
+- Transistor collector -> laser negative (short leg)
+- Laser positive (long leg) -> 100 ohm resistor -> +5V from the power source 
+- Also connect the power source's ground to ESP32 ground
 
 Receiver side is easy: just connect the solar panel wires to a 3.5mm audio cable. Positive to the tip, negative to the sleeve. Plug that into the speaker.
 
@@ -92,10 +92,10 @@ To change the song, just change the numbers in the melody array. You can look up
 
 ### Problems I Ran Into (troubleshooting)
 
-· No sound: Forgot to connect grounds together. The ESP32 ground and the charger ground must be connected.
-· Laser always on: My transistor was backwards. Collector and emitter matter.
-· Distorted audio: Too much ambient light on the solar panel. I put a paper tube between laser and panel to block room light. (I didn't run into this)
-· Quiet sound: Move laser closer or get a bigger solar panel.
+- No sound: Forgot to connect grounds together. The ESP32 ground and the charger ground must be connected.
+- Laser always on: My transistor was backwards. Collector and emitter matter.
+- Distorted audio: Too much ambient light on the solar panel. I put a paper tube between laser and panel to block room light. (I didn't run into this)
+- Quiet sound: Move laser closer or get a bigger solar panel.
 
 ### Safety
 
