@@ -105,10 +105,10 @@ Don't point the laser at anyone's eyes. Even a small one can hurt. I aimed mine 
 
 This was a fun project. It shows how light can carry sound. I got it working across my room (about 3 to 4 meters). You could probably go farther with a better laser or bigger panel.
 
-License 
+### License 
 
 MIT - Open Source
 
-Author 
+### Author 
 
 George Tomeh
