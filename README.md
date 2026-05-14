@@ -2,7 +2,7 @@
 
 ### Short Story
 
-This is my project. It plays a song on an ESP32, sends the sound through a laser, and picks it up with a solar panel connected to a speaker.
+This is a project I made once I knew how to they use light to send data (especially in internet). It plays a melody on an ESP32, sends the sound through a laser, and picks it up with a solar panel connected to a speaker.Then enjoy your music.
 
 ### How It Works
 
@@ -99,7 +99,7 @@ To change the song, just change the numbers in the melody array. You can look up
 
 ### Safety
 
-Don't point the laser at anyone's eyes. Even a small one can hurt. I aimed mine at a wall and put the solar panel in front of it.
+**Don't** point the laser at **anyone's eyes**. Even a small one can **hurt**. I aimed mine at a wall and put the solar panel in front of it.
 
 ### Conclusion
 
@@ -107,7 +107,7 @@ This was a fun project. It shows how light can carry sound. I got it working acr
 
 ### License 
 
-MIT - Open Source
+**MIT** - Open Source
 
 ### Author 
 
